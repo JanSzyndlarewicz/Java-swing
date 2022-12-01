@@ -15,18 +15,25 @@ public class Interface {
     private JButton Next;
 
     public Interface(String polish, String english) {
+        Random random = new Random();
+        final String[] answer1 = new String[1];
+        final String[] english1 = {""};
+        String[] tmp = null;
+        tmp = functions.getLine(random.nextInt(functions.countLines())+1);
+        english1[0] = tmp[0];
+        polish = tmp[1];
 
         Check.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 String name = Answer.getText();
-                String answer = english;
+                answer1[0] = english1[0];
 
-                if(answer.equals(name)){
+                if(answer1[0].equals(name)){
                     JOptionPane.showMessageDialog(JOptionPane.getRootFrame(), "Dobrze!");
                 }
                 else{
-                    JOptionPane.showMessageDialog(JOptionPane.getRootFrame(), answer);
+                    JOptionPane.showMessageDialog(JOptionPane.getRootFrame(), answer1);
                 }
                 Answer.setText("");
 
@@ -41,14 +48,14 @@ public class Interface {
             public void actionPerformed(ActionEvent e) {
                 Random random = new Random();
 
-                String polish = "", english1 = "", odpowiedz = "";
+                String polish = "";
                 String[] tmp = null;
 
                 tmp = functions.getLine(random.nextInt(functions.countLines())+1);
-                english1 = tmp[0];
+                english1[0] = tmp[0];
                 polish = tmp[1];
                 Question.setText(polish);
-
+                answer1[0] = english1[0];
             }
         });
 

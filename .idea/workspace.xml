@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac854808-08f5-4d76-88ae-e587e037d37e" name="Changes" comment="Working interface">
-      <change afterPath="$PROJECT_DIR$/src/Vocabulary/functions.java" afterDir="false" />
+    <list default="true" id="ac854808-08f5-4d76-88ae-e587e037d37e" name="Changes" comment="Zmiana na polskiego">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GUI/Interface.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/Interface.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GUI/Interface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/Interface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vocabulary" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +56,7 @@
       <option name="presentableId" value="Default" />
       <updated>1669825730928</updated>
       <workItem from="1669825732724" duration="6536000" />
-      <workItem from="1669844374427" duration="8291000" />
+      <workItem from="1669844374427" duration="10590000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1669825785653</created>
@@ -74,7 +72,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669850968087</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Zmiana na polskiego">
+      <created>1669853692088</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1669853692088</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,6 +100,7 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Working inferface" />
     <MESSAGE value="Working interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="Working interface" />
+    <MESSAGE value="Zmiana na polskiego" />
+    <option name="LAST_COMMIT_MESSAGE" value="Zmiana na polskiego" />
   </component>
 </project>
